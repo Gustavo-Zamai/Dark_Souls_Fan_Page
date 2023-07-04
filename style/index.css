@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background: url(../assets/bg-ds.png) no-repeat;
+}
+
+#content {
+    display: inline-block;
+    height: 800px;
+    margin: 100px;
+    text-align: center;
+}
+
+#content  h1{
+    color: rgb(36, 33, 33);
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    display: inline-block;
+    padding: 20px;
+    margin: 100px;
+}
+
+#content span {
+    color:rgb(138, 29, 18);
+}
+
+#content h2 {
+    color:rgb(138, 29, 15);
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    padding: 25px;
+}
+
+#content p {
+    color:rgb(5, 5, 5);
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+#buy {
+    margin-right: 75px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+button {
+    padding: 25px;
+    margin-top: 80px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: burlywood;
+}
+
+button:hover,
+a:hover {
+    font-size: 25px;
+    font-weight: 700;
+    background-color:rgb(138, 29, 15);
+    color:black;
+    box-shadow: 15px;
+}

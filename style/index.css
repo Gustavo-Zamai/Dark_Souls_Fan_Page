@@ -7,45 +7,58 @@
 }
 
 body {
-    background: url(../assets/bg-ds.png) no-repeat;
+    background: url(../assets/ds-bg-index.jpg) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    margin: 170px 0px 0px 950px;
+    color: rgb(35, 4, 65);
+    font-size: 25px;
+}
+
+header a {
+    color: rgb(35, 4, 65);
+    font-size: 25px;
+}
+
+header a:hover {
+    background-color: rgb(25, 0, 255, 0);
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(89, 6, 167);
 }
 
 #content {
     display: inline-block;
-    height: 800px;
+    height: 770px;
     margin: 100px;
     text-align: center;
 }
 
-#content  h1{
-    color: rgb(36, 33, 33);
-    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 50px;
-    display: inline-block;
-    padding: 20px;
-    margin: 100px;
-}
 
-#content span {
-    color:rgb(138, 29, 18);
+#content img {
+    margin-top: 200px;
+    height: 120px;
+    width: 100;
+    color:rgb(71, 66, 66);
 }
-
-#content h2 {
-    color:rgb(138, 29, 15);
-    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 30px;
-    padding: 25px;
-}
-
 #content p {
-    color:rgb(5, 5, 5);
+    color:rgb(248, 248, 248);
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 35px;
+    font-size: 45px;
     margin-top: 50px;
 }
 
-#buy {
-    margin-right: 75px;
+
+
+#trilogy {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
 
 a {
@@ -58,15 +71,14 @@ button {
     margin-top: 80px;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 25px;
-    font-weight: 700;
-    background-color: burlywood;
+    font-weight: 500;
+    background-color: rgb(222, 184, 135, 0.5);
 }
 
-button:hover,
-a:hover {
+button:hover {
     font-size: 25px;
     font-weight: 700;
-    background-color:rgb(138, 29, 15);
+    background-color:rgb(219, 156, 39, 0.2);
     color:black;
     box-shadow: 15px;
 }

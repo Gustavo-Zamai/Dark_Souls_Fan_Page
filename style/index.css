@@ -10,30 +10,12 @@ body {
     background: url(../assets/ds-bg-index.jpg) no-repeat center/cover;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-header {
-    margin: 170px 0px 0px 950px;
-    color: rgb(35, 4, 65);
-    font-size: 25px;
-}
-
-header a {
-    color: rgb(35, 4, 65);
-    font-size: 25px;
-}
-
-header a:hover {
-    background-color: rgb(25, 0, 255, 0);
-    font-weight: 400;
-    font-size: 25px;
-    color: rgb(89, 6, 167);
+    height: 100vh;
 }
 
 #content {
     display: inline-block;
     height: 770px;
-    margin: 100px;
     text-align: center;
 }
 
@@ -73,6 +55,7 @@ button {
     font-size: 25px;
     font-weight: 500;
     background-color: rgb(222, 184, 135, 0.5);
+    border-radius: 50px;
 }
 
 button:hover {
@@ -81,4 +64,25 @@ button:hover {
     background-color:rgb(219, 156, 39, 0.2);
     color:black;
     box-shadow: 15px;
+
 }
+
+footer {
+    margin: 170px 0px 0px 950px;
+    color: rgb(35, 4, 65);
+    font-size: 25px;
+}
+
+footer a {
+    color: rgb(35, 4, 65);
+    font-size: 25px;
+}
+
+footer a:hover {
+    background-color: rgb(25, 0, 255, 0);
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(89, 6, 167);
+}
+
+

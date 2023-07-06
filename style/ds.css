@@ -7,3 +7,8 @@
 body {
     background: fixed url(../assets/bg-1.jpg) no-repeat center/cover;
 }
+
+#navbarTogglerDemo01 img {
+    height: 75px;
+    width: auto;
+}

@@ -29,14 +29,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ---
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+O DS_FAN_PAGE é um site dedicado a trilogia dos jogos da saga Dark Souls, contendo detalhes dos diferentes games, bosses, sub bosses e áreas.
 
 [Acesse o projeto em andamento, online](https://Gustavo-Zamai.github.io/ds_fan_page) .
 
 ---
 ## 📑 Aprendizado
 
-Durante esse projeto, reforcei conceitos básicos de HTML, CSS e Javascript. E utilizei para fixar e melhor compreender sobre o alinhamento e posicionamento dos elementos em diferentes displays.
+Durante esse projeto, reforcei conceitos básicos de HTML, CSS e Javascript. Utilizei o CSS para fixar e melhorar a compreensão sobre alinhamento e posicionamento dos elementos em diferentes displays. Também quis utilizar o bootstrap nas barras de navegação. 
 
 ---
 ## 📝 Licença

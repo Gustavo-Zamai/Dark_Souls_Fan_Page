@@ -1,4 +1,4 @@
-<h1 align="center"> DS FAN PAGE </h1>
+<h1 align="center"> Dark Souls Fan Page </h1>
 
 <p align="center">
  <br/>
